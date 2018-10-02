@@ -25,6 +25,10 @@ view: inventory_items {
     ]
     sql: ${TABLE}.created_at ;;
   }
+parameter: testdate {
+  type: date
+}
+
 
   dimension: product_id {
     type: number
